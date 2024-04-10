@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: sp-govtech-scheduler
+
+custom:
+  task:
+    cron:
+      expression: '0 50,55 15 * * ?'
+      zone: 'America/Detroit'
+
