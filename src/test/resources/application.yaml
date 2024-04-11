@@ -1,0 +1,6 @@
+custom:
+  task:
+    cron:
+      expression: '* * * * * ?'
+      zone: 'America/Detroit'
+
